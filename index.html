@@ -12,6 +12,9 @@
         <ul v-if="email.length>=10">
             <li v-for="singleEmail in email">{{singleEmail}}</li>
         </ul>
+        <div v-else>
+            Loading email...
+        </div>
     </div>
 
     <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
