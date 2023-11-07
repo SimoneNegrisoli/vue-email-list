@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="app">
-        
-        <ul>
+        <h1>Email random</h1>
+        <ul v-if="email.length>=10">
             <li v-for="singleEmail in email">{{singleEmail}}</li>
         </ul>
     </div>
